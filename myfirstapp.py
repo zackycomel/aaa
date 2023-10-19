@@ -10,3 +10,4 @@ if show:
     'Intplan': ['yes', 'yes', 'yes', 'no'],
     'Churn Status': [0, 0, 0, 1]
     }))
+
