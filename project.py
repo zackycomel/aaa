@@ -11,9 +11,9 @@ This app predicts the **Advertising** type!
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
-    TV = st.sidebar.slider('TV', 0.04, 0.5, 0.6, 0.1, 0.7)
-    Radio = st.sidebar.slider('Radio', 0.2, 0.7, 0.8, 0.9)
-    Newspaper = st.sidebar.slider('Newspaper', 0.3,0.606, 0.5, 0.6)
+    TV = st.sidebar.slider('TV', 16.0, 150.0, 250)
+    Radio = st.sidebar.slider('Radio', 5.0,38.0 , 50.0)
+    Newspaper = st.sidebar.slider('Newspaper', 40.0 ,55.0 , 65.0)
     data = {'TV': TV,
             'Radio': Radio,
             'Newspaper': Newspaper,}
